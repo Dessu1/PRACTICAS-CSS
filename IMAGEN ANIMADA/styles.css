@@ -1,0 +1,26 @@
+body {
+  background: #9bdfff;
+}
+
+.center {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.center .girl {
+  position: relative;
+  height: 55rem;
+  width: calc(2288px / 4);
+  background: url("./image/slepping-girl.png"); /* 2288x927 */
+  -webkit-box-reflect: below 1px linear-gradient(transparent 90%, #0004);
+  animation: animationGril 0.7s steps(4) infinite;
+}
+@keyframes animationGril {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: 2288px;
+  }
+}
